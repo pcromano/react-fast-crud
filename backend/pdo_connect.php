@@ -7,5 +7,5 @@
 	require_once('PDO.class.php');
     
 	$PDO = new Db($DbHost, $DbName, $DbUser, $DbPass);
-	$PDO->query('SET TIME_ZONE = "America/Toronto"');
-    $PDO->query("SET sql_mode = ''");
+	//$PDO->query('SET TIME_ZONE = "America/Toronto"');
+    //$PDO->query("SET sql_mode = ''");

@@ -15,7 +15,7 @@ import axios from "axios";
 function Footer() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Yusay Credit & Finance Corporation - All Rights Reserved'}
+      {process.env.REACT_APP_COMPANY} - All Rights Reserved
     </Typography>
   );
 }
@@ -88,7 +88,7 @@ class SignIn extends React.Component {
             <CssBaseline />
 
             <Typography component="h1" variant="h4" align="center">
-              YCFC - CAS
+              {process.env.REACT_APP_NAME}
         </Typography>
             <Box mt={2} >
               <StyledAvatar>
