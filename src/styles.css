@@ -1,0 +1,71 @@
+.maincontainer {
+    display: flex;
+    flex-grow: 1;
+}
+
+span.MuiTableSortLabel-root:hover, svg.MuiTableSortLabel-icon:hover{
+    color: #315bc1 !important;
+    cursor: pointer;
+}
+th.MuiTableCell-root, td.MuiTableCell-root {
+    border: 1px solid #f1f1f1;
+    font-size: 80% !important;
+}
+.MuiTableCell-head {
+    font-size: 80% !important;
+    background-color: #f5ece2;
+    border: 1px solid #e2e2e2 !important;
+}
+.MuiFilledInput-input{
+    padding: 6px 12px !important;
+}
+.MuiInputBase-input {
+    background-color: #fff !important;
+}
+.MuiButton-contained {
+    color: '#6495ed',
+}
+.fa-small {
+    font-size: 14px !important;
+    margin: 0 3px;
+}
+.inputRoot {
+    color: 'inherit'
+}
+.inputInput
+{
+    padding: 1px;
+    width: 210px;
+    border-bottom: '1px solid #cccccc';
+    margin-left: 2px;
+    color: 'inherit';
+}
+.inputInput:hover {
+    border-bottom: '1px solid #333333'
+}
+.drawerPaper {
+    width: 220px;
+    background-color: #cccccc;
+  }
+ 
+.select_edit  .MuiSelect-root {
+    padding: 10px !important;
+}
+.listRowNum {
+    color: #a09f9f  !important;
+    max-width: 45px !important;
+    padding: 0 8px !important;
+}
+.tabIcon {
+    position: relative;
+}
+.MuiButton-label > span, .tabIcon > span {
+    display: inline-block;
+    vertical-align: middle;    
+}
+.MuiButton-label > i, .tabIcon > i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;    
+    padding-right: 5px;
+}
