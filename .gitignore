@@ -2,6 +2,7 @@
 /node_modules
 /.pnp
 .pnp.js
+pdo_connect.php
 
 # production
 /build
